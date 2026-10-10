@@ -1,0 +1,43 @@
+{
+  "model_name": "Random Forest Water Potability Classifier",
+  "num_samples_total": 3276,
+  "num_train": 2620,
+  "num_test": 656,
+  "features": [
+    "ph",
+    "Hardness",
+    "Solids",
+    "Chloramines",
+    "Sulfate",
+    "Conductivity",
+    "Organic_carbon",
+    "Trihalomethanes",
+    "Turbidity"
+  ],
+  "metrics": {
+    "accuracy": 0.8872,
+    "precision": 0.8507,
+    "recall": 0.8702,
+    "f1_score": 0.8604,
+    "roc_auc": 0.943,
+    "cv_roc_auc_mean": 0.9565,
+    "cv_roc_auc_std": 0.008
+  },
+  "confusion_matrix": {
+    "true_negatives": 354,
+    "false_positives": 40,
+    "false_negatives": 34,
+    "true_positives": 228
+  },
+  "feature_importances": {
+    "ph": 0.27222593231292125,
+    "Solids": 0.17240269981831688,
+    "Turbidity": 0.15752506875048647,
+    "Hardness": 0.10457624674339618,
+    "Sulfate": 0.08395175109459248,
+    "Trihalomethanes": 0.06824374207906388,
+    "Chloramines": 0.05352750971175705,
+    "Conductivity": 0.04881570597063155,
+    "Organic_carbon": 0.038731343518834206
+  }
+}
